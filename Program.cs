@@ -8,15 +8,15 @@ namespace Wk2Ex1
         {
             Console.WriteLine("Loan Interest Calculator\n");
 
-            // Input: Loan amount
+            // Enter Loan amount
             Console.Write("Enter the loan amount: $ ");
                  t.ToDouble(Console.ReadLine());
 
-            // Input: Annual interest rate
+            // Enter Annual interest rate
             Console.Write("Enter the annual interest rate (in %): ");
             double annualInterestRate = Convert.ToDouble(Console.ReadLine()) / 100;
 
-            // Input: Loan term in years
+            // Enter Loan term in years
             Console.Write("Enter the loan term (in years): ");
             int loanTermYears = Convert.ToInt32(Console.ReadLine());
 
