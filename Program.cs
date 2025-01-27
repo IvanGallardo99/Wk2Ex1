@@ -23,9 +23,6 @@ namespace Wk2Ex1
             // Calculate total interest
             double totalInterest = loanAmount * annualInterestRate * loanTermYears;
 
-            // Calculate total payment
-            double totalPayment = loanAmount + totalInterest;
-
             // Output the results
             Console.WriteLine($"Total Interest of Loan: $ {totalInterest:F2}");
 
